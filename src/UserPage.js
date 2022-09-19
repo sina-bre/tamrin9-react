@@ -9,7 +9,7 @@ const UserPage = () => {
           navigate("/dashBoard");
         }}
       >
-        go back
+        go back dashBoard
       </button>
     </>
   );

@@ -9,7 +9,7 @@ const AdminPage = () => {
           navigate("/dashBoard");
         }}
       >
-        go back
+        go back dashBoard
       </button>
     </>
   );

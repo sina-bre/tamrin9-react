@@ -1,4 +1,5 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Outlet } from "react-router-dom";
+
 const DashBooard = () => {
   const navigate = useNavigate();
   return (
@@ -9,8 +10,9 @@ const DashBooard = () => {
           navigate("/");
         }}
       >
-        go back
+        go back login
       </button>
+      <Outlet />
     </>
   );
 };
